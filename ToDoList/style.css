@@ -1,0 +1,180 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    transition: all 0.3s ease;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    font-size: 16px;
+}
+
+
+/* Fully Responsive Without Media Queries... WASI */
+
+
+/* Aqib Read the Code Carefully and try to understand the properties and thier functions that i've used... learn, practice, Repeat.  */
+
+
+/* Section Starts */
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    background: #6983aa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.box {
+    width: 80%;
+    height: 90vh;
+    background-color: #f4f4f4;
+    box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.title {
+    margin: 0 0 30px;
+    padding: 8px 13px;
+    width: 100%;
+    background: transparent;
+    box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    color: #8566aa;
+    font-size: 2.5rem;
+    font-weight: 500;
+    /* rgb(95, 93, 248) */
+}
+
+.content {
+    width: 100%;
+    margin-top: 1.5rem;
+}
+
+input {
+    color: #333;
+    text-shadow: rgb(95, 93, 248);
+    text-align: center;
+    height: 40px;
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    font-weight: 500;
+    width: 50%;
+    border-bottom: 2px solid #8566aa;
+    outline: none;
+}
+
+input:hover,
+input:focus {
+    width: 60%;
+    border-bottom: 2px solid #70e000;
+}
+
+button {
+    margin-left: 10px;
+    padding: 7px 13px;
+    height: 40px;
+    width: max-content;
+    font-size: 16px;
+    border-radius: 6px;
+    border-color: transparent;
+    background-color: #8566aa;
+    color: #fff;
+    border: none;
+    outline: none;
+    box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #70e000;
+    /* #09f821 */
+}
+
+.list {
+    width: 80%;
+    height: inherit;
+    margin: 1.5rem 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    border: 2px solid #6983aa;
+    border-radius: 6px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    overflow-wrap: break-word;
+}
+
+.list-title {
+    width: max-content;
+    height: fit-content;
+    margin: 20px;
+    border-bottom: 2px solid #70e000;
+}
+
+.list-title h2 {
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: #61bb07;
+}
+
+ul {
+    margin: 30px 20px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+ul li {
+    min-height: 40px;
+    width: max-content;
+    margin: 10px;
+    padding: 7px 13px;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: justify;
+    color: #000;
+    text-transform: capitalize;
+    background: #f1f1f1;
+    border-radius: 6px;
+    box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.3);
+}
+
+#del {
+    position: relative;
+    top: 0;
+    right: 0;
+    height: 40px;
+    width: max-content;
+    margin-left: 10px;
+    font-size: 1rem;
+    text-align: center;
+    border-radius: 6px;
+    border-color: transparent;
+    background: rgb(255, 0, 0);
+    color: #fff;
+    border: none;
+    outline: none;
+}
+
+#del:hover {
+    filter: brightness(90%);
+}
